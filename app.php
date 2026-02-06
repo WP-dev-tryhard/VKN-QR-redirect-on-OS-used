@@ -3,6 +3,8 @@
  * Server-side device detection and redirect for VaekstNet App
  */
 
+
+// Get the device info
 $userAgent = $_SERVER['HTTP_USER_AGENT'];
 
 $iosUrl = 'https://apps.apple.com/dk/app/vaekst/id6754325482?l=da';
@@ -24,3 +26,4 @@ else {
     header("Location: " . $fallbackUrl, true, 302);
     exit();
 }
+
