@@ -1,5 +1,6 @@
-
-
+What you need to do:
+1.	In your SiteGround File Manager (public_html folder), create a new file named app.php.
+2.	Paste the following code into that file:
 
 Next Step for Elementor: Set your QR code link to https://vaekstnet.com/app.php.
 
